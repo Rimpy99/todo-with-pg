@@ -1,7 +1,6 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import helmet from 'helmet';
-import pool from './db';
 
 const app = express();
 app.use(express.json());
